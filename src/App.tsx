@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import logoImage from './img/logo.jpg'
 import banner1 from './img/banner1.jpg'
-import banner2 from './img/banner2.jpg'
 import banner3 from './img/banner3.jpg'
 // import IGLogo from './img/IG.png' // Comentado - no se usa en la versión optimizada
 // import FBLogo from './img/FB.png' // Comentado - no se usa en la versión optimizada
@@ -26,11 +25,6 @@ const professionalInfo = {
       id: 1,
       image: banner1,
       category: 'Talleres'
-    },
-    {
-      id: 2,
-      image: banner2,
-      category: 'Cursos'
     },
     {
       id: 3,
