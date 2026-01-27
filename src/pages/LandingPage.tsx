@@ -638,7 +638,7 @@ export default function LandingPage() {
               e.currentTarget.style.transform = 'translateY(0)';
               e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
             }}
-            onClick={() => openModal('los talleres de redes sociales')}>
+            onClick={() => openModal('el curso de Canva Básico')}>
               <div style={{
                 width: '70px',
                 height: '70px',
@@ -651,9 +651,11 @@ export default function LandingPage() {
                 boxShadow: '0 4px 16px rgba(0, 180, 219, 0.3)'
               }}>
                 <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M17 2H7C4.79086 2 3 3.79086 3 6V18C3 20.2091 4.79086 22 7 22H17C19.2091 22 21 20.2091 21 18V6C21 3.79086 19.2091 2 17 2Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <circle cx="12" cy="12" r="3" stroke="white" strokeWidth="2"/>
-                  <path d="M17.5 6.5H17.51" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <rect x="3" y="3" width="18" height="18" rx="2" stroke="white" strokeWidth="2"/>
+                  <path d="M3 9H21" stroke="white" strokeWidth="2"/>
+                  <path d="M9 3V21" stroke="white" strokeWidth="2"/>
+                  <circle cx="15" cy="6" r="1.5" fill="white"/>
+                  <path d="M12 15L14 17L18 13" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
               
@@ -662,14 +664,14 @@ export default function LandingPage() {
                 fontWeight: '700',
                 color: '#1a1a1a',
                 marginBottom: '1rem'
-              }}>Redes Sociales</h3>
+              }}>Canva Básico</h3>
               
               <p style={{
                 color: '#666',
                 lineHeight: '1.6',
                 marginBottom: '1.5rem'
               }}>
-                Aprende a crear contenido profesional y gestiona tu presencia digital de manera efectiva.
+                Crea diseños profesionales sin experiencia previa. Aprende a usar Canva para contenido visual impactante.
               </p>
               
               <ul style={{
@@ -678,20 +680,20 @@ export default function LandingPage() {
                 margin: '0 0 1.5rem 0'
               }}>
                 <li style={{ marginBottom: '0.75rem', display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#00B4DB' }}>
-                  ✓ <span style={{ color: '#666' }}>Marketing digital</span>
+                  ✓ <span style={{ color: '#666' }}>Diseño gráfico básico</span>
                 </li>
                 <li style={{ marginBottom: '0.75rem', display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#00B4DB' }}>
-                  ✓ <span style={{ color: '#666' }}>Creación de contenido</span>
+                  ✓ <span style={{ color: '#666' }}>Plantillas y herramientas</span>
                 </li>
                 <li style={{ marginBottom: '0.75rem', display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#00B4DB' }}>
-                  ✓ <span style={{ color: '#666' }}>Estrategias efectivas</span>
+                  ✓ <span style={{ color: '#666' }}>Contenido para redes</span>
                 </li>
               </ul>
               
               <button
                 onClick={(e) => {
                   e.stopPropagation();
-                  openModal('información sobre el taller de Redes Sociales');
+                  openModal('información sobre el curso de Canva Básico');
                 }}
                 style={{
                   width: '100%',
